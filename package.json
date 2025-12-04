@@ -18,5 +18,8 @@
     "@vitejs/plugin-react": "^4.0.0",
     "serve": "^14.2.5"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
