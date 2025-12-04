@@ -4,8 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import axios from 'axios';
 import './Login.css';
 
-// IMPORTANTE: Verifica que esta variable de entorno esté configurada
-const API_BASE = import.meta.env.VITE_API_URL || 'https://proyecto-production-fc30.up.railway.app/';
+const API_BASE = import.meta.env.VITE_API_URL;
 
 export default function Auth({ onLogin }) {
   const [mode, setMode] = useState('login');

@@ -4,8 +4,8 @@ import axios from 'axios';
 import { format } from 'date-fns';
 import { es } from 'date-fns/locale';
 import './AdminPanel.css';
-const API_BASE = import.meta.env.VITE_API_URL;
 
+const API_BASE = import.meta.env.VITE_API_URL;
 
 export default function AdminPanel({ token, logout, api }) {
   const [activeTab, setActiveTab] = useState('citas');
